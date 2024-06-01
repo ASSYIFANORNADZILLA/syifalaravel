@@ -13,14 +13,14 @@ class ProdiController extends Controller
 {
     public function index()
     {
-        $data = ['nama' => 'hitler', 'foto' =>'opp.jpeg'];
+        $data = ['nama' => "syfa", 'foto' => 'E020322090.jpeg'];
         $prodi = Prodi::all();
         return view('prodi.index', compact ('data', 'prodi')); 
     }
 
     public function create()
     {
-        $data = ['nama' => 'hitler', 'foto' =>'opp.jpeg'];
+        $data = ['nama' => "syfa", 'foto' => 'E020322090.jpeg'];
         return view('prodi.create', compact(['data']));
     }
 

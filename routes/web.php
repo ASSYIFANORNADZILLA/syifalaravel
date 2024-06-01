@@ -6,17 +6,17 @@ use App\Http\Controllers\ProdiController;
 
 
 Route::get('/', function () {
-    $data = ['nama' => 'hitler', 'foto' =>'opp.jpeg'];
+    $data = ['nama' => "syfa", 'foto' => 'E020322090.jpeg'];
     return view('dashboard', compact ('data')); 
 });
 
 Route::get('/mahasiswa', function () {
-    $data = ['nama' => 'hitler', 'foto' =>'opp.jpeg'];
+    $data = ['nama' => "syfa", 'foto' => 'E020322090.jpeg'];
     return view('mahasiswa', compact ('data')); 
 });
 
 Route::get('/prodi', function () {
-    $data = ['nama' => 'hitler', 'foto' =>'opp.jpeg'];
+    $data = ['nama' => "syfa", 'foto' => 'E020322090.jpeg'];
     return view('prodi', compact ('data')); 
 });
 
